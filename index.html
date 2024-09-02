@@ -5,21 +5,20 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link href="./_app/immutable/assets/2.BfEAzcwA.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.4Wm6DkWN.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DFX0V18E.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.Dxn9xBJ7.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.CsxR7rPX.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index.eKEeyAFb.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.DPRAvmEc.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.LnldvLeI.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.80ye86kT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.jAwds3H5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CNnarYU7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DUS8C4Jt.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D4A_hJtS.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CUvOzTXq.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.s5Djs7cR.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">  <main class="svelte-1amkhbn"><main class="svelte-1xbjcd0"><section class="svelte-1xbjcd0"><span class="svelte-1xbjcd0" data-svelte-h="svelte-iio7wo">Начальное состояние:</span> <input type="number" class="svelte-1xbjcd0" value="1"></section> <section class="svelte-1xbjcd0"><span class="svelte-1xbjcd0" data-svelte-h="svelte-1b27qnr">Целевое состояние:</span> <input type="number" class="svelte-1xbjcd0" value="10000001"></section> <section class="svelte-1xbjcd0"><span class="svelte-1xbjcd0" data-svelte-h="svelte-6aov60">Операции: </span><select class="svelte-1xbjcd0"><option value="two" data-svelte-h="svelte-mfhkae">+3 *2</option><option value="three" data-svelte-h="svelte-edwsy1">+3 *2 -2</option></select></section> <section class="svelte-1xbjcd0"><span class="svelte-1xbjcd0" data-svelte-h="svelte-ho4hbc">Направление поиска:</span> <select class="svelte-1xbjcd0"><option value="forward" data-svelte-h="svelte-pxzuhg">Прямой</option><option value="backward" data-svelte-h="svelte-1gffiih">Обратный</option></select></section> <button class="svelte-1xbjcd0" data-svelte-h="svelte-1u94fjy">Добавить задачу</button> </main> <article class="svelte-1amkhbn"></article> </main> 
+		<div style="display: contents">  <title data-svelte-h="svelte-r203f">Примеры для заданий по курсу Интеллектуальных систем</title> <a href="./task-1" data-svelte-h="svelte-16kifq">Задание 1. Поиск решения в пространстве состояний</a> 
 			
 			<script>
 				{
-					__sveltekit_1l7v3kr = {
+					__sveltekit_x5zj1t = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
@@ -28,8 +27,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.4Wm6DkWN.js"),
-						import("./_app/immutable/entry/app.CsxR7rPX.js")
+						import("./_app/immutable/entry/start.80ye86kT.js"),
+						import("./_app/immutable/entry/app.DUS8C4Jt.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

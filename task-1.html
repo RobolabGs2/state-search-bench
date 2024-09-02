@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/TaskPanel.wZ8Ft_RH.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.80ye86kT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.jAwds3H5.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.CNnarYU7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DUS8C4Jt.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.D4A_hJtS.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CUvOzTXq.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/4.DSxcoy7n.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/TaskPanel.BE8mU5gS.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <title data-svelte-h="svelte-1nir375">Поиск в пространстве состояний: числа</title> <main class="svelte-1amkhbn"><article class="svelte-mynkmm"><main class="svelte-mynkmm"><section class="svelte-mynkmm"><span class="svelte-mynkmm" data-svelte-h="svelte-iio7wo">Начальное состояние:</span> <input type="number" class="svelte-mynkmm" value="1"></section> <section class="svelte-mynkmm"><span class="svelte-mynkmm" data-svelte-h="svelte-1b27qnr">Целевое состояние:</span> <input type="number" class="svelte-mynkmm" value="10000001"></section> <section class="svelte-mynkmm"><span class="svelte-mynkmm" data-svelte-h="svelte-6aov60">Операции: </span><select class="svelte-mynkmm"><option value="two" data-svelte-h="svelte-mfhkae">+3 *2</option><option value="three" data-svelte-h="svelte-edwsy1">+3 *2 -2</option></select></section> <section class="svelte-mynkmm"><span class="svelte-mynkmm" data-svelte-h="svelte-ho4hbc">Направление поиска:</span> <select class="svelte-mynkmm"><option value="forward" data-svelte-h="svelte-pxzuhg">Прямой</option><option value="backward" data-svelte-h="svelte-1gffiih">Обратный</option></select></section> <button class="svelte-mynkmm" data-svelte-h="svelte-1u94fjy">Добавить задачу</button></main> <main class="svelte-mynkmm" data-svelte-h="svelte-cdhxcq"><h1>Условие задачи</h1> <p>Даны два целых числа, а также набор операций («прибавить 3», «умножить на 2» или  «прибавить 3», «умножить на 2» и «вычесть 2»).</p> <p>Найти минимальную последовательность операций, позволяющую получить из первого числа второе, используя поиск в ширину с разным направлением обхода</p></main> </article> <article class="svelte-1amkhbn"></article> </main> 
+			
+			<script>
+				{
+					__sveltekit_x5zj1t = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.80ye86kT.js"),
+						import("./_app/immutable/entry/app.DUS8C4Jt.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 4],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
